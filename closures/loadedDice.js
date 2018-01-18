@@ -9,11 +9,10 @@ function makeLoadedDie() {
   var index = 0;
 
   return function() {
-    index += 1;
-
-
-
-    return list[index - 1];
+      retun list[index++]
+    // instead of below, use index++ above so that it
+    //calls array 0 first then adds 1
+    // return list[index - 1];
   }
 }
 
