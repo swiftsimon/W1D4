@@ -14,13 +14,9 @@ students.sort(function(a, b) {
     return -1;
 
   } else {
-    return (a.age - b.age)
+    return a.age - b.age;
 
   }
-  //   if (a.age > b.age) {
-  //     return 1;
-  //   }
-  //       return 0;
 
 });
 
